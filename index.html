@@ -47,7 +47,7 @@
   /* HERO */
   .hero-grid{
     display:grid;
-    grid-template-columns:1.6fr 1fr;
+    grid-template-columns:2fr 1fr;
     gap:36px;
     align-items:start;
   }
@@ -72,6 +72,8 @@
   .contact-card{
     padding:18px 0 0 0;
     border-top:1px solid var(--line);
+    max-width:230px;
+    margin-left:auto;
   }
   .profile-photo{
     width:130px;
@@ -255,13 +257,14 @@
     <div class="hero-grid">
       <div>
         <h1 class="serif">이주헌</h1>
-        <div class="hero-role">AI / Data Developer 지원</div>
+        <div class="hero-role">AI / Data Engineer 지원</div>
         <p class="lead">데이터를 수집하고 검증하는 단계부터 모델링·배포까지 직접 설계하는 개발자 이주헌입니다.</p>
         <p class="body">
           창원시 DRT 프로젝트에서는 1,188개 CSV 파일을 직접 수집하고 PostGIS 기반 DB를 설계했습니다.
           졸업논문에서는 KISA 가이드 15개 항목을 기준으로 Windows 서버 취약점을 자동 진단하고
           Gemini API로 조치 방안을 생성하는 파이프라인을 단독으로 설계했습니다.
           Lending Club 프로젝트에서는 4개 모델을 비교해 SHAP으로 판단 근거까지 검증했습니다.
+          데이터 수집부터 배포까지 전 과정을 직접 다뤄본 만큼, 어느 단계에서 문제가 생겨도 원인을 찾아 해결할 수 있습니다.
         </p>
       </div>
       <div class="contact-card">
@@ -452,9 +455,10 @@
     <div class="eyebrow">SKILLS</div>
     <hr class="rule">
     <div class="skill-grid">
-      <p><b>ML/AI</b> — CatBoost, XGBoost, Random Forest, SHAP.</p>
+      <p><b>ML/AI</b> — CatBoost, XGBoost, Random Forest, SHAP, Gemini API.</p>
       <p><b>Data/GIS</b> — PostGIS, QGIS, Streamlit, Selenium, SegFormer-B2.</p>
-      <p><b>Automation/Backend</b> — Brity Automation(RPA), FastAPI, Python.</p>
+      <p><b>Automation/Backend</b> — Brity Automation(RPA), Python, REST API(urllib 기반 직접 호출).</p>
+      <p><b>Infra/Tools</b> — AWS(클라우드 직무캠프 수료), Docker, Excel(함수, 피벗테이블), Git.</p>
     </div>
   </div>
 </section>
